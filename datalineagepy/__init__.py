@@ -5,7 +5,7 @@ This library provides automatic lineage tracking for pandas and PySpark workflow
 with support for various data sources including databases, files, and cloud storage.
 """
 
-__version__ = "1.0.5"
+__version__ = "1.0.6"
 __author__ = "Arbaznazir"
 __email__ = "arbaznazir4@gmail.com"
 

@@ -120,7 +120,7 @@ class LineageDataFrame:
 
             # Transformation
             'drop', 'drop_duplicates', 'dropna', 'fillna', 'replace',
-            'rename', 'astype', 'assign', 'pipe',
+            'rename', 'astype', 'assign', 'pipe', 'copy',
 
             # Grouping and aggregation
             'groupby', 'agg', 'aggregate', 'sum', 'mean', 'count',
@@ -205,6 +205,50 @@ class LineageDataFrame:
         """Handle DataFrame assignment operations."""
         self._df[key] = value
         self._update_node_schema()
+
+    def __add__(self, other):
+        """Handle addition operations."""
+        if isinstance(other, LineageDataFrame):
+            result = self._df + other._df
+            result_name = f"{self.name}_add_{other.name}"
+            result_ldf = LineageDataFrame(
+                result, name=result_name, tracker=self.tracker)
+
+            # Track the operation
+            operation = PandasOperation(
+                operation_type="add",
+                inputs=[self.node.id, other.node.id],
+                outputs=[result_ldf.node.id],
+                method_name="__add__",
+                args=(other,),
+                kwargs={}
+            )
+
+            self.tracker.operations.append(operation)
+            self.tracker.add_edge(self.node, result_ldf.node, operation)
+            self.tracker.add_edge(other.node, result_ldf.node, operation)
+
+            return result_ldf
+        else:
+            result = self._df + other
+            result_name = f"{self.name}_add_scalar"
+            result_ldf = LineageDataFrame(
+                result, name=result_name, tracker=self.tracker)
+
+            # Track the operation
+            operation = PandasOperation(
+                operation_type="add_scalar",
+                inputs=[self.node.id],
+                outputs=[result_ldf.node.id],
+                method_name="__add__",
+                args=(other,),
+                kwargs={}
+            )
+
+            self.tracker.operations.append(operation)
+            self.tracker.add_edge(self.node, result_ldf.node, operation)
+
+            return result_ldf
 
     def to_pandas(self) -> pd.DataFrame:
         """Return the underlying pandas DataFrame."""
