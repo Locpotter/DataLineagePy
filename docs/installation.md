@@ -7,7 +7,7 @@ This guide will help you install DataLineagePy and get it running on your system
 The fastest way to get started:
 
 ```bash
-pip install lineagepy
+pip install datalineagepy
 ```
 
 That's it! DataLineagePy is now ready to use.
@@ -32,7 +32,7 @@ That's it! DataLineagePy is now ready to use.
 ### Option 1: Basic Installation (Recommended)
 
 ```bash
-pip install lineagepy
+pip install datalineagepy
 ```
 
 Includes:
@@ -45,7 +45,7 @@ Includes:
 ### Option 2: Full Installation (All Features)
 
 ```bash
-pip install lineagepy[all]
+pip install datalineagepy[all]
 ```
 
 Includes everything plus:
@@ -76,7 +76,7 @@ Includes:
 ### Visualization Features
 
 ```bash
-pip install lineagepy[viz]
+pip install datalineagepy[viz]
 ```
 
 Adds: Plotly, Bokeh, advanced charting
@@ -84,7 +84,7 @@ Adds: Plotly, Bokeh, advanced charting
 ### ML & Anomaly Detection
 
 ```bash
-pip install lineagepy[ml]
+pip install datalineagepy[ml]
 ```
 
 Adds: Scikit-learn, anomaly detection models
@@ -92,7 +92,7 @@ Adds: Scikit-learn, anomaly detection models
 ### Real-time Alerting
 
 ```bash
-pip install lineagepy[alerts]
+pip install datalineagepy[alerts]
 ```
 
 Adds: Slack, email, webhook notifications
@@ -100,7 +100,7 @@ Adds: Slack, email, webhook notifications
 ### Performance Profiling
 
 ```bash
-pip install lineagepy[profiling]
+pip install datalineagepy[profiling]
 ```
 
 Adds: Memory profilers, performance benchmarks
@@ -110,12 +110,12 @@ Adds: Memory profilers, performance benchmarks
 Test your installation with this simple script:
 
 ```python
-import lineagepy
-from lineagepy import LineageTracker, DataFrameWrapper
+import datalineagepy
+from datalineagepy import LineageTracker, DataFrameWrapper
 import pandas as pd
 
 # Check version
-print(f"DataLineagePy version: {lineagepy.__version__}")
+print(f"DataLineagePy version: {datalineagepy.__version__}")
 
 # Quick functionality test
 tracker = LineageTracker()
@@ -142,7 +142,7 @@ conda create -n datalineage python=3.9
 conda activate datalineage
 
 # Install DataLineagePy
-pip install lineagepy
+pip install datalineagepy
 ```
 
 ### Using venv
@@ -158,7 +158,7 @@ datalineage-env\Scripts\activate
 source datalineage-env/bin/activate
 
 # Install DataLineagePy
-pip install lineagepy
+pip install datalineagepy
 ```
 
 ## 🔄 Upgrading DataLineagePy
@@ -166,20 +166,20 @@ pip install lineagepy
 ### Upgrade to Latest Version
 
 ```bash
-pip install --upgrade lineagepy
+pip install --upgrade datalineagepy
 ```
 
 ### Upgrade with All Features
 
 ```bash
-pip install --upgrade lineagepy[all]
+pip install --upgrade datalineagepy[all]
 ```
 
 ### Check Current Version
 
 ```python
-import lineagepy
-print(lineagepy.__version__)
+import datalineagepy
+print(datalineagepy.__version__)
 ```
 
 ## 🛠️ Dependencies
@@ -207,7 +207,7 @@ DataLineagePy automatically installs these core dependencies:
 
 ```bash
 # Solution: Use --user flag
-pip install --user lineagepy
+pip install --user datalineagepy
 ```
 
 #### Issue 2: Python Version Too Old
@@ -226,7 +226,7 @@ python -m venv fresh-env
 source fresh-env/bin/activate  # Linux/macOS
 # OR
 fresh-env\Scripts\activate  # Windows
-pip install lineagepy
+pip install datalineagepy
 ```
 
 #### Issue 4: ImportError After Installation
@@ -237,8 +237,8 @@ import sys
 print(sys.path)
 
 # Reinstall if needed
-pip uninstall lineagepy
-pip install lineagepy
+pip uninstall datalineagepy
+pip install datalineagepy
 ```
 
 ### Getting Help
@@ -261,10 +261,10 @@ If installing behind a corporate firewall:
 
 ```bash
 # Use corporate proxy
-pip install --proxy http://proxy.company.com:8080 lineagepy
+pip install --proxy http://proxy.company.com:8080 datalineagepy
 
 # Use corporate certificate bundle
-pip install --cert /path/to/certificate.pem lineagepy
+pip install --cert /path/to/certificate.pem datalineagepy
 ```
 
 ### Air-Gapped Environments
@@ -274,14 +274,14 @@ For offline installation:
 1. Download wheel file on connected machine:
 
    ```bash
-   pip download lineagepy
+   pip download datalineagepy
    ```
 
 2. Transfer files to air-gapped machine
 
 3. Install offline:
    ```bash
-   pip install lineagepy-*.whl
+   pip install datalineagepy-*.whl
    ```
 
 ## 📈 Performance Optimization
@@ -290,14 +290,14 @@ For offline installation:
 
 ```bash
 # Install with performance optimizations
-pip install lineagepy[performance]
+pip install datalineagepy[performance]
 ```
 
 ### Memory-Constrained Environments
 
 ```bash
 # Minimal installation
-pip install lineagepy --no-deps
+pip install datalineagepy --no-deps
 pip install pandas networkx numpy  # Only core deps
 ```
 

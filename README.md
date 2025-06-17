@@ -190,20 +190,20 @@ DataLineagePy is built with performance and simplicity in mind:
 
 ### Complete Examples
 
-- [**Basic Usage**](examples/basic_example.py) - Getting started guide
-- [**Advanced Features**](docs/examples/real-world-scenarios.md) - Enterprise implementations
-- [**Testing Framework**](docs/advanced/testing.md) - Quality assurance
-- [**Performance Optimization**](docs/user-guide/concepts.md) - Speed tuning
+- [**Basic Usage**](https://github.com/Arbaznazir/DataLineagePy/blob/main/examples/basic_example.py) - Getting started guide
+- [**Advanced Features**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/examples/real-world-scenarios.md) - Enterprise implementations
+- [**Testing Framework**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/advanced/testing.md) - Quality assurance
+- [**Performance Optimization**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/user-guide/concepts.md) - Speed tuning
 
 ### 📚 Complete Documentation
 
-- [**📖 User Guide**](docs/user-guide/concepts.md) - Architecture and core concepts
-- [**⚡ Quick Start**](docs/quickstart.md) - 30-second tutorial
-- [**🔧 Installation**](docs/installation.md) - Setup and configuration
-- [**🏭 Real-World Examples**](docs/examples/real-world-scenarios.md) - Industry implementations
-- [**🧪 Advanced Testing**](docs/advanced/testing.md) - Complete testing framework
-- [**📋 FAQ**](docs/faq.md) - Common questions and troubleshooting
-- [**🔌 API Reference**](docs/api/core.md) - Complete API documentation
+- [**📖 User Guide**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/user-guide/concepts.md) - Architecture and core concepts
+- [**⚡ Quick Start**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/quickstart.md) - 30-second tutorial
+- [**🔧 Installation**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/installation.md) - Setup and configuration
+- [**🏭 Real-World Examples**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/examples/real-world-scenarios.md) - Industry implementations
+- [**🧪 Advanced Testing**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/advanced/testing.md) - Complete testing framework
+- [**📋 FAQ**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/faq.md) - Common questions and troubleshooting
+- [**🔌 API Reference**](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/api/core.md) - Complete API documentation
 
 ### Use Cases
 
