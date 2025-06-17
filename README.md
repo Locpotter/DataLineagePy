@@ -34,7 +34,7 @@ As a data engineer who's wrestled with complex pipelines and debugging data issu
 Get up and running in 30 seconds:
 
 ```bash
-pip install lineagepy
+pip install datalineagepy
 ```
 
 ```python
@@ -191,9 +191,19 @@ DataLineagePy is built with performance and simplicity in mind:
 ### Complete Examples
 
 - [**Basic Usage**](examples/basic_example.py) - Getting started guide
-- [**Advanced Features**](examples/phase3_advanced_example.py) - Power user features
-- [**Testing Framework**](examples/phase5_testing_framework_demo.py) - Quality assurance
-- [**Performance Optimization**](examples/phase4_comprehensive_demo.py) - Speed tuning
+- [**Advanced Features**](docs/examples/real-world-scenarios.md) - Enterprise implementations
+- [**Testing Framework**](docs/advanced/testing.md) - Quality assurance
+- [**Performance Optimization**](docs/user-guide/concepts.md) - Speed tuning
+
+### 📚 Complete Documentation
+
+- [**📖 User Guide**](docs/user-guide/concepts.md) - Architecture and core concepts
+- [**⚡ Quick Start**](docs/quickstart.md) - 30-second tutorial
+- [**🔧 Installation**](docs/installation.md) - Setup and configuration
+- [**🏭 Real-World Examples**](docs/examples/real-world-scenarios.md) - Industry implementations
+- [**🧪 Advanced Testing**](docs/advanced/testing.md) - Complete testing framework
+- [**📋 FAQ**](docs/faq.md) - Common questions and troubleshooting
+- [**🔌 API Reference**](docs/api/core.md) - Complete API documentation
 
 ### Use Cases
 
