@@ -2,6 +2,32 @@
 
 All notable changes to DataLineagePy will be documented in this file.
 
+## [1.0.5] - 2025-01-17
+
+### Fixed
+
+- 🔧 **Core Module Recovery**: Restored all essential core modules that were accidentally deleted during naming consistency update
+- 📦 **Import Resolution**: Fixed "Import could not be resolved" errors in IDEs (PyLance, VS Code)
+- 🏗️ **Package Structure**: Rebuilt complete package architecture with proper **init**.py files
+
+### Added
+
+- ✨ **LineageTracker**: Complete data lineage tracking with graph-based storage (270+ lines)
+- 🗃️ **Node Classes**: DataNode, FileNode, DatabaseNode, CloudNode for different data sources (280+ lines)
+- 🔗 **LineageEdge**: Connection tracking with column-level lineage support (140+ lines)
+- ⚙️ **Operation Classes**: Operation, PandasOperation, SQLOperation, FileOperation tracking (190+ lines)
+- 🐼 **LineageDataFrame**: Pandas wrapper with automatic lineage tracking (330+ lines)
+- 📊 **Schema Tracking**: Automatic schema detection and evolution tracking
+- 🎯 **Column Lineage**: Detailed column-level dependency tracking
+- 📈 **Performance Metrics**: Operation timing and execution tracking
+
+### Technical Details
+
+- **Total Lines Added**: 1,200+ lines of core functionality
+- **Import Structure**: Graceful imports with fallback handling
+- **Backward Compatibility**: Maintains all existing functionality
+- **Development Ready**: Full IDE support with proper type hints
+
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
