@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datalineagepy"
-version = "1.0.3"
+version = "1.0.4"
 authors = [
     {name = "Arbaz Nazir", email = "arbaznazir4@gmail.com"},
 ]
@@ -86,20 +86,20 @@ Repository = "https://github.com/Arbaznazir/DataLineagePy.git"
 "Bug Tracker" = "https://github.com/Arbaznazir/DataLineagePy/issues"
 Changelog = "https://github.com/Arbaznazir/DataLineagePy/blob/main/CHANGELOG.md"
 
-[project.entry-points."lineagepy.connectors"]
-csv = "lineagepy.connectors.csv:CSVConnector"
-json = "lineagepy.connectors.json:JSONConnector"
-parquet = "lineagepy.connectors.parquet:ParquetConnector"
-mysql = "lineagepy.connectors.mysql:MySQLConnector"
-postgresql = "lineagepy.connectors.postgresql:PostgreSQLConnector"
-sqlite = "lineagepy.connectors.sqlite:SQLiteConnector"
+[project.entry-points."datalineagepy.connectors"]
+csv = "datalineagepy.connectors.csv:CSVConnector"
+json = "datalineagepy.connectors.json:JSONConnector"
+parquet = "datalineagepy.connectors.parquet:ParquetConnector"
+mysql = "datalineagepy.connectors.mysql:MySQLConnector"
+postgresql = "datalineagepy.connectors.postgresql:PostgreSQLConnector"
+sqlite = "datalineagepy.connectors.sqlite:SQLiteConnector"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["lineagepy*"]
+include = ["datalineagepy*"]
 
 [tool.setuptools.package-data]
-lineagepy = ["py.typed"]
+datalineagepy = ["py.typed"]
 
 [tool.black]
 line-length = 88
@@ -122,7 +122,7 @@ python_functions = "test_*"
 addopts = "-v"
 
 [tool.coverage.run]
-source = ["lineagepy"]
+source = ["datalineagepy"]
 omit = ["*/tests/*", "*/examples/*"]
 
 [tool.coverage.report]
