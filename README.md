@@ -4,8 +4,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Performance](https://img.shields.io/badge/performance-86%25%20faster-green.svg)](https://github.com/yourusername/DataLineagePy)
-[![Memory](https://img.shields.io/badge/memory-94%25%20more%20efficient-brightgreen.svg)](https://github.com/yourusername/DataLineagePy)
+[![Performance](https://img.shields.io/badge/performance-86%25%20faster-green.svg)](https://github.com/Arbaznazir/DataLineagePy)
+[![Memory](https://img.shields.io/badge/memory-94%25%20more%20efficient-brightgreen.svg)](https://github.com/Arbaznazir/DataLineagePy)
 
 > Transform your pandas workflows with automatic, column-level data lineage tracking. Zero configuration, maximum insight.
 
@@ -190,10 +190,10 @@ DataLineagePy is built with performance and simplicity in mind:
 
 ### Complete Examples
 
-- [**Basic Usage**](examples/basic_usage_demo.py) - Getting started guide
-- [**Advanced Features**](examples/advanced_features_demo.py) - Power user features
+- [**Basic Usage**](examples/basic_example.py) - Getting started guide
+- [**Advanced Features**](examples/phase3_advanced_example.py) - Power user features
 - [**Testing Framework**](examples/phase5_testing_framework_demo.py) - Quality assurance
-- [**Performance Optimization**](examples/performance_optimization_demo.py) - Speed tuning
+- [**Performance Optimization**](examples/phase4_comprehensive_demo.py) - Speed tuning
 
 ### Use Cases
 
@@ -211,7 +211,7 @@ I welcome contributions from the community! DataLineagePy is designed to be exte
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/DataLineagePy.git
+git clone https://github.com/Arbaznazir/DataLineagePy.git
 cd DataLineagePy
 pip install -e ".[dev]"
 pytest tests/
