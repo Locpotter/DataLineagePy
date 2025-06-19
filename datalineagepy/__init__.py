@@ -1,11 +1,12 @@
 """
-DataLineagePy - A comprehensive Python library for tracking and visualizing data lineage.
+DataLineagePy - Enterprise-grade Python data lineage tracking library
+====================================================================
 
-This library provides automatic lineage tracking for pandas and PySpark workflows,
-with support for various data sources including databases, files, and cloud storage.
+A comprehensive solution for tracking data lineage with automatic pandas integration,
+memory optimization, and enterprise-ready features.
 """
 
-__version__ = "1.0.6"
+__version__ = "2.0.0"
 __author__ = "Arbaznazir"
 __email__ = "arbaznazir4@gmail.com"
 
@@ -14,7 +15,10 @@ try:
     from .core.tracker import LineageTracker
     from .core.nodes import DataNode, FileNode, DatabaseNode
     from .core.edges import LineageEdge
-    from .core.dataframe_wrapper import LineageDataFrame
+    from .core.dataframe_wrapper import (
+        LineageDataFrame, read_csv, read_json, read_parquet,
+        read_excel, read_multiple_files
+    )
     from .core.operations import Operation
 except ImportError:
     # Graceful fallback if core modules aren't available yet
@@ -42,11 +46,20 @@ try:
 except ImportError:
     pass
 
+# Benchmarks imports
+try:
+    from .benchmarks.performance_benchmarks import PerformanceBenchmarkSuite
+    from .benchmarks.competitive_analysis import CompetitiveAnalyzer
+    from .benchmarks.memory_profiler import MemoryProfiler
+except ImportError:
+    pass
+
 __all__ = [
     'LineageTracker',
     'DataNode', 'FileNode', 'DatabaseNode',
     'LineageEdge',
     'LineageDataFrame',
+    'read_csv', 'read_json', 'read_parquet', 'read_excel', 'read_multiple_files',
     'Operation',
     'DatabaseConnector',
     'FileConnector',
@@ -55,4 +68,7 @@ __all__ = [
     'ReportGenerator',
     'LineageValidator',
     'BenchmarkSuite',
+    'PerformanceBenchmarkSuite',
+    'CompetitiveAnalyzer',
+    'MemoryProfiler',
 ]

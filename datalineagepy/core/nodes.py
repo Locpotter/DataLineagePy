@@ -49,6 +49,18 @@ class DataNode:
         """Get the schema information for this node."""
         return self.schema.copy()
 
+    def add_metadata(self, key: str, value: Any):
+        """Add a metadata key-value pair to this node."""
+        self.metadata[key] = value
+
+    def get_metadata(self, key: str, default: Any = None) -> Any:
+        """Get a metadata value by key."""
+        return self.metadata.get(key, default)
+
+    def update_metadata(self, metadata_dict: Dict[str, Any]):
+        """Update metadata with a dictionary of key-value pairs."""
+        self.metadata.update(metadata_dict)
+
     def to_dict(self) -> Dict:
         """Convert node to dictionary representation."""
         return {
