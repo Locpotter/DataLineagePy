@@ -33,7 +33,7 @@ keywords = [
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
-    "Intended Audience :: Data Scientists",
+    "Intended Audience :: Science/Research",
     "Intended Audience :: Information Technology",
     "Intended Audience :: Financial and Insurance Industry",
     "Intended Audience :: Healthcare Industry",
@@ -62,7 +62,6 @@ dependencies = [
     "tqdm>=4.60.0",
     "psutil>=5.8.0"
 ]
-dynamic = ["dependencies"]
 
 [project.urls]
 Homepage = "https://github.com/Arbaznazir/DataLineagePy"
