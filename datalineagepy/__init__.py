@@ -6,8 +6,8 @@ A comprehensive solution for tracking data lineage with automatic pandas integra
 memory optimization, and enterprise-ready features.
 """
 
-__version__ = "2.0.0"
-__author__ = "Arbaznazir"
+__version__ = "2.0.1"
+__author__ = "Arbaz Nazir"
 __email__ = "arbaznazir4@gmail.com"
 
 # Core imports

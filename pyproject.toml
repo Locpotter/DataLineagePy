@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datalineagepy"
-version = "2.0.0"
+version = "2.0.1"
 description = "Enterprise-grade Python data lineage tracking library with automatic pandas integration, perfect memory optimization, and comprehensive visualization capabilities."
 readme = "README.md"
 license = {text = "MIT"}
@@ -15,20 +15,8 @@ maintainers = [
     {name = "Arbaz Nazir", email = "arbaznazir4@gmail.com"}
 ]
 keywords = [
-    "data-lineage", 
-    "pandas", 
-    "data-tracking", 
-    "data-governance", 
-    "etl", 
-    "data-pipeline",
-    "enterprise",
-    "analytics",
-    "visualization",
-    "audit-trail",
-    "compliance",
-    "data-quality",
-    "performance",
-    "memory-optimization"
+    "data-lineage", "pandas", "data-tracking", "etl", "data-pipeline", 
+    "data-governance", "visualization", "enterprise", "analytics", "ml-ops"
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -36,15 +24,6 @@ classifiers = [
     "Intended Audience :: Science/Research",
     "Intended Audience :: Information Technology",
     "Intended Audience :: Financial and Insurance Industry",
-    "Intended Audience :: Healthcare Industry",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
-    "Programming Language :: Python :: 3.10",
-    "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.12",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Scientific/Engineering :: Information Analysis",
     "Topic :: Database",
@@ -65,13 +44,13 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Arbaznazir/DataLineagePy"
-Documentation = "https://github.com/Arbaznazir/DataLineagePy/docs"
-Repository = "https://github.com/Arbaznazir/DataLineagePy.git"
+Documentation = "https://github.com/Arbaznazir/DataLineagePy/tree/main/docs"
+Repository = "https://github.com/Arbaznazir/DataLineagePy"
 "Bug Tracker" = "https://github.com/Arbaznazir/DataLineagePy/issues"
 "Feature Requests" = "https://github.com/Arbaznazir/DataLineagePy/discussions"
 "Release Notes" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/CHANGELOG.md"
-"Enterprise Support" = "https://github.com/Arbaznazir/DataLineagePy/discussions"
-"Community" = "https://github.com/Arbaznazir/DataLineagePy/discussions"
+"Source Code" = "https://github.com/Arbaznazir/DataLineagePy"
+"Download" = "https://pypi.org/project/datalineagepy/"
 
 [project.optional-dependencies]
 viz = [

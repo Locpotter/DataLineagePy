@@ -8,7 +8,7 @@ Welcome to the comprehensive documentation for DataLineagePy, the world's most a
 
 > **Author**: Arbaz Nazir
 > **Email**: arbaznazir4@gmail.com  
-> **🔗 Version**: 2.0.0 - Production Release
+> **🔗 Version**: 2.0.1 - Production Release
 > **📅 Last Updated**: June 19, 2025
 
 ---
@@ -278,7 +278,7 @@ This documentation is optimized for all devices:
 
 | Version   | Release Date  | Documentation Status | Key Features                |
 | --------- | ------------- | -------------------- | --------------------------- |
-| **2.0.0** | June 19, 2025 | ✅ Complete          | Enterprise production ready |
+| **2.0.1** | June 19, 2025 | ✅ Complete          | Enterprise production ready |
 | 1.0.5     | May 2025      | ✅ Complete          | Performance optimization    |
 | 1.0.4     | April 2025    | ✅ Complete          | Advanced analytics          |
 | 1.0.3     | March 2025    | ✅ Complete          | Core lineage tracking       |
