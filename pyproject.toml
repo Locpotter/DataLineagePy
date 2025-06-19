@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datalineagepy"
-version = "2.0.3"
+version = "2.0.4"
 description = "Enterprise-grade Python data lineage tracking library with automatic pandas integration, perfect memory optimization, and comprehensive visualization capabilities."
 readme = "README.md"
 license = {text = "MIT"}
@@ -44,15 +44,15 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Arbaznazir/DataLineagePy"
-Documentation = "https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/index.md"
+Documentation = "https://github.com/Arbaznazir/DataLineagePy/tree/main/docs"
 Repository = "https://github.com/Arbaznazir/DataLineagePy"
 "Bug Tracker" = "https://github.com/Arbaznazir/DataLineagePy/issues"
 "Feature Requests" = "https://github.com/Arbaznazir/DataLineagePy/discussions"
 "Release Notes" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/CHANGELOG.md"
 "Source Code" = "https://github.com/Arbaznazir/DataLineagePy"
 "Download" = "https://pypi.org/project/datalineagepy/"
-"User Guide" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/user-guide/concepts.md"
-"API Reference" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/api/core.md"
+"User Guide" = "https://github.com/Arbaznazir/DataLineagePy/tree/main/docs/user-guide"
+"API Reference" = "https://github.com/Arbaznazir/DataLineagePy/tree/main/docs/api"
 "Quick Start" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/quickstart.md"
 "Installation Guide" = "https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/installation.md"
 "Examples" = "https://github.com/Arbaznazir/DataLineagePy/tree/main/examples"
