@@ -863,7 +863,7 @@ If your question isn't answered here:
 1. **📖 Check our [Documentation](index.md)** - Comprehensive guides
 2. **🔍 Search [GitHub Issues](https://github.com/Arbaznazir/DataLineagePy/issues)** - Common problems
 3. **💬 Ask in [Discussions](https://github.com/Arbaznazir/DataLineagePy/discussions)** - Community help
-4. **📧 Email [Support](mailto:support@datalineagepy.com)** - Direct assistance
+4. **📧 Email [Support](mailto:arbaznazir4@gmail.com)** - Direct assistance
 
 ---
 

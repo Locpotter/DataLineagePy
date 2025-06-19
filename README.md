@@ -617,7 +617,7 @@ DataLineagePy is built with ❤️ and represents the culmination of extensive r
 
 ## 📞 **Support & Contact**
 
-- **📧 Email**: support@datalineagepy.com
+- **📧 Email**: arbaznazir4@gmail.com
 - **💬 GitHub Discussions**: [Discussions](https://github.com/Arbaznazir/DataLineagePy/discussions)
 - **🐛 Bug Reports**: [Issues](https://github.com/Arbaznazir/DataLineagePy/issues)
 - **📖 Documentation**: [docs/](docs/)
