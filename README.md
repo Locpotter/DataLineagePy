@@ -481,20 +481,20 @@ tracker.configure_audit_trail(
 
 ### Complete Documentation Suite
 
-- **📚 [User Guide](docs/user-guide/)** - Comprehensive usage instructions
-- **🔧 [API Reference](docs/api/)** - Complete method documentation
-- **🚀 [Quick Start](docs/quickstart.md)** - 30-second setup guide
-- **🏢 [Enterprise Guide](docs/advanced/production.md)** - Production deployment patterns
-- **📊 [Performance Benchmarks](docs/benchmarks/performance.md)** - Detailed performance analysis
-- **🥊 [Competitive Analysis](docs/benchmarks/comparison.md)** - vs other solutions
-- **❓ [FAQ](docs/faq.md)** - Frequently asked questions
+- **📚 [User Guide](https://github.com/Arbaznazir/DataLineagePy/tree/main/docs/user-guide)** - Comprehensive usage instructions
+- **🔧 [API Reference](https://github.com/Arbaznazir/DataLineagePy/tree/main/docs/api)** - Complete method documentation
+- **🚀 [Quick Start](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/quickstart.md)** - 30-second setup guide
+- **🏢 [Enterprise Guide](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/advanced/production.md)** - Production deployment patterns
+- **📊 [Performance Benchmarks](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/benchmarks/performance.md)** - Detailed performance analysis
+- **🥊 [Competitive Analysis](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/benchmarks/comparison.md)** - vs other solutions
+- **❓ [FAQ](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/faq.md)** - Frequently asked questions
 
 ### Examples and Tutorials
 
-- **[Basic Usage Examples](examples/)** - Simple getting started examples
-- **[Advanced Features](examples/advanced/)** - Enterprise feature demonstrations
-- **[Production Patterns](examples/production/)** - Real-world deployment examples
-- **[Integration Examples](examples/integrations/)** - Third-party tool integration
+- **[Basic Usage Examples](https://github.com/Arbaznazir/DataLineagePy/tree/main/examples)** - Simple getting started examples
+- **[Advanced Features](https://github.com/Arbaznazir/DataLineagePy/tree/main/examples/advanced)** - Enterprise feature demonstrations
+- **[Production Patterns](https://github.com/Arbaznazir/DataLineagePy/tree/main/examples/production)** - Real-world deployment examples
+- **[Integration Examples](https://github.com/Arbaznazir/DataLineagePy/tree/main/examples/integrations)** - Third-party tool integration
 
 ### API Documentation
 
@@ -537,10 +537,10 @@ help(DataValidator.validate_dataframe)
 ## 🚀 **Getting Started Checklist**
 
 - [ ] **Install DataLineagePy**: `pip install datalineagepy`
-- [ ] **Read Quick Start**: [docs/quickstart.md](docs/quickstart.md)
+- [ ] **Read Quick Start**: [https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/quickstart.md](https://github.com/Arbaznazir/DataLineagePy/blob/main/docs/quickstart.md)
 - [ ] **Try Basic Example**: Run the 30-second example above
-- [ ] **Explore Documentation**: Browse the complete [documentation](docs/)
-- [ ] **Check Examples**: Look at [examples/](examples/) for your use case
+- [ ] **Explore Documentation**: Browse the complete [documentation](https://github.com/Arbaznazir/DataLineagePy/tree/main/docs)
+- [ ] **Check Examples**: Look at [examples](https://github.com/Arbaznazir/DataLineagePy/tree/main/examples) for your use case
 - [ ] **Join Community**: Star the repo and follow updates
 
 ---
@@ -620,7 +620,7 @@ DataLineagePy is built with ❤️ and represents the culmination of extensive r
 - **📧 Email**: arbaznazir4@gmail.com
 - **💬 GitHub Discussions**: [Discussions](https://github.com/Arbaznazir/DataLineagePy/discussions)
 - **🐛 Bug Reports**: [Issues](https://github.com/Arbaznazir/DataLineagePy/issues)
-- **📖 Documentation**: [docs/](docs/)
+- **�� Documentation**: [https://github.com/Arbaznazir/DataLineagePy/tree/main/docs](https://github.com/Arbaznazir/DataLineagePy/tree/main/docs)
 - **💻 Source Code**: [GitHub](https://github.com/Arbaznazir/DataLineagePy)
 
 ---

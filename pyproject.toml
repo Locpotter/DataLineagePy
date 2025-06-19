@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "datalineagepy"
-version = "2.0.4"
+version = "2.0.5"
 description = "Enterprise-grade Python data lineage tracking library with automatic pandas integration, perfect memory optimization, and comprehensive visualization capabilities."
 readme = "README.md"
 license = {text = "MIT"}
